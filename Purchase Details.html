@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Purchase Details:</title>
+    <link rel="stylesheet" href="Purchase.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="welcome.php" method="post">
+    <h1>Purchase Details</h1>
+    <div class="Signup">
+        <form>
+           <div class="ct">
+               <label><b>Invoice Number:</b></label>
+               <input type="text" placeholder="" autofocus="autofocus" autocomplete="off" required>
+           </div>
+
+           <div class="ct">
+               <label><b>Invoice Date<br></b></label>
+               <input type="date" autocomplete="off" required>
+            </div>
+            <div class="ct1">
+          <label><b>Distributor Name:</b></label>
+          <input type="text" placeholder="" autocomplete="off" required>
+           </div>
+          <div class="ct">
+            <label><b>Brand:<br></b></label>
+            <input type="text" autocomplete="off" required>
+
+            <label><b>Base Price:<br></b></label>
+            <input type="text" autocomplete="off" required>
+            <label><b>Quantity:<br></b></label>
+            <input type="number" autocomplete="off" required>
+        </div>
+        <div class="ct">
+            <label><b>Model:<br></b></label>
+            <input type="text" autocomplete="off" required>
+
+            <label><b>CGST:<br></b></label>
+            <input type="text" autocomplete="off" required>
+        </div>
+          <button type="submit" value="Validate" onclick="Validate()">Submit</button>
+        </form>
+    <!--
+       <script type="text/javascript">
+        function Validate() {
+               var userconfirmation=confirm("Are You Sure?");
+               if(userconfirmation == true){
+                  window.open("https://www.youtube.com/");
+                  return true;
+               }else{
+                  return false;
+               }
+        }
+       </script>
+
+    --> 
+</body>
+</html>
